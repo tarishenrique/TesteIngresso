@@ -1,6 +1,6 @@
 package testeingresso;
 
-public class CamaroteInferior {
+public class CamaroteInferior extends VIP {
     private String localizacao;
 
     public String getLocalizacao() {
@@ -11,9 +11,8 @@ public class CamaroteInferior {
         this.localizacao = localizacao;
     }
 
-    public void imprimeLocalizacao(){
+    public void imprimeLocalizacao() {
         System.out.println(
-            "Localização: " + localizacao
-        );
+                "Localização: " + localizacao);
     }
 }
