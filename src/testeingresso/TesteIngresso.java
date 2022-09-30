@@ -1,20 +1,21 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package testeingresso;
 
-/**
- *
- * @author taris
- */
+import java.util.Scanner;
+
 public class TesteIngresso {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Scanner entrada = new Scanner(System.in);
+        int opcao1;
+        int opcao2;
+
+        Ingresso ing1 = new Ingresso();
+        ing1.setValor(350);
+
+        System.out.println("Escolha o tipo de ingresso: \n1 - Ingresso Normal \n2 - Ingresso VIP");
+
+        opcao1 = entrada.nextInt();
+
     }
-    
+
 }

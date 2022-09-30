@@ -1,13 +1,11 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package testeingresso;
 
-/**
- *
- * @author taris
- */
-public class Normal {
+public class Normal extends Ingresso {
+
+    public void imprimeNormal(){
+        System.out.println(
+            "Ingresso Normal"
+        );
+    }
     
 }

@@ -1,13 +1,21 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package testeingresso;
 
-/**
- *
- * @author taris
- */
-public class VIP {
-    
+public class VIP extends Ingresso {
+
+    protected double valorAdicional;
+
+    public double getValorAdicional() {
+        return valorAdicional;
+    }
+
+    public void setValorAdicional(double valorAdicional) {
+        this.valorAdicional = valorAdicional;
+    }
+
+    public double valorVIP() {
+        double ingressoVIP = valor + valorAdicional;
+
+        return ingressoVIP;
+    }
+
 }
