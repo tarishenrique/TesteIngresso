@@ -1,6 +1,6 @@
 package testeingresso;
 
-public class CamaroteSuperior extends Ingresso {
+public class CamaroteSuperior extends VIP {
     private double valorAdicional;
 
     public double getValorAdicional() {
@@ -11,8 +11,8 @@ public class CamaroteSuperior extends Ingresso {
         this.valorAdicional = valorAdicional;
     }
 
-    public double imprimeCamaroteSuperior(){
-        double valorCamaroteSuperior = valor + valorAdicional;
+    public double imprimeCamaroteSuperior() {
+        double valorCamaroteSuperior = valorVIP() + valorAdicional;
 
         return valorCamaroteSuperior;
     }
